@@ -1,0 +1,71 @@
+{
+    "intents": [
+      {
+        "intent": "grant_eligibility",
+        "examples": [
+          "Who is eligible for the grant?",
+          "Can I apply for the grant if I have a scholarship?",
+          "Are previous recipients eligible for the grant?"
+        ],
+        "response": "Students on full scholarships are ineligible for this grant. Priority will be given to new candidates, but previous recipients are welcome to apply."
+      },
+      {
+        "intent": "application_process",
+        "examples": [
+          "How do I apply for the grant?",
+          "What documents do I need to submit?",
+          "What happens after I apply?"
+        ],
+        "response": "To apply, submit all required documents and information through the Financial Aid Office. Ensure your submissions are accurate and verifiable, as unverified information may weaken your application."
+      },
+      {
+        "intent": "decision_criteria",
+        "examples": [
+          "How is the grant awarded?",
+          "What factors are considered for the grant?"
+        ],
+        "response": "The Financial Aid Office reviews applications based on proven financial need and the availability of funds. We also consider demonstrated hardship, existing grants, and special payment plans."
+      },
+      {
+        "intent": "grant_validity",
+        "examples": [
+          "How long is the grant valid?",
+          "Can the grant be used in future terms?"
+        ],
+        "response": "The grant is valid only for the January - April 2024 term. It cannot be extended to subsequent terms."
+      },
+      {
+        "intent": "grant_conditions",
+        "examples": [
+          "Can I use the grant for cash?",
+          "What happens if I don’t meet the conditions?"
+        ],
+        "response": "The grant is not redeemable in cash. ALU reserves the right to withdraw the grant if the conditions are not met."
+      },
+      {
+        "intent": "grant_prioritization",
+        "examples": [
+          "Who gets priority for the grant?",
+          "Do you prioritize new applicants?"
+        ],
+        "response": "Priority is given to new applicants with the most demonstrated financial need. However, previous recipients may still apply."
+      },
+      {
+        "intent": "general_grant_information",
+        "examples": [
+          "Tell me about the grant.",
+          "What should I know before applying for the grant?"
+        ],
+        "response": "Alusive Africa grants are limited, and applying does not guarantee aid. Ensure your information is accurate and verifiable. Successful applicants will receive aid for the January - April 2024 term."
+      },
+      {
+        "intent": "fallback",
+        "examples": [
+          "I have a question about the grant.",
+          "Can you help me with financial aid?"
+        ],
+        "response": "I can help! Could you specify your question about the grant? For example, eligibility, application process, or grant validity?"
+      }
+    ]
+  }
+  
